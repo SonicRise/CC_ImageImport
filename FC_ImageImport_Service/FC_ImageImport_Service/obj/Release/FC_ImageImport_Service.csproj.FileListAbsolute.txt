@@ -1,0 +1,31 @@
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.pdb
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\Oracle.ManagedDataAccess.dll
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.ProjectInstaller.resources
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.GenerateResource.Cache
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+D:\WORK\PROJECTS\OTHER\BITCOM\БЦК\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\Lib\VS\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\Lib\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\Lib\VS\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\Разработка СВИФТА\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\Разработка СВИФТА\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\Разработка СВИФТА\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\Библиотеки\Импорт\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\Библиотеки\Импорт\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\Библиотеки\Импорт\FC_ImageImport_Service(Чистый без изменений)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.pdb
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.ProjectInstaller.resources
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.GenerateResource.Cache
+C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csprojResolveAssemblyReference.cache

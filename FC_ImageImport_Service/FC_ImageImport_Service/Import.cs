@@ -305,9 +305,13 @@ namespace OracleLib
             byte[] buffer = new byte[blob.Length];
             reader.GetBytes(0, 0, buffer, 0, buffer.Length);
 
-            string swiftText = Encoding.Default.GetString(buffer);
-            
-            if(swiftText.Contains("Ѓ"))
+            //string swiftText = Encoding.Default.GetString(buffer);
+
+            string swiftText = Encoding.UTF8.GetString(buffer);
+
+            Trace.TraceInformation(swiftText);
+
+            if (swiftText.Contains("Ѓ"))
             {
                 swiftText = Encoding.UTF8.GetString(buffer);
             }
@@ -320,7 +324,8 @@ namespace OracleLib
             }
 
             Trace.TraceInformation("Переписали файл в стринг");
-            //Trace.TraceInformation(swiftText);
+            Trace.TraceInformation(swiftText);
+
 
             string[] list;
 

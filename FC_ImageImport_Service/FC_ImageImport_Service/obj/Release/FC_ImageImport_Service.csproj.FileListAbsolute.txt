@@ -29,3 +29,13 @@ C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\
 C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.ProjectInstaller.resources
 C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.GenerateResource.Cache
 C:\Users\Виктор\Desktop\FC_ImageImport_Service(Офисный оракл)\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csprojResolveAssemblyReference.cache
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe.config
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.exe
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\bin\Release\FC_ImageImport_Service.pdb
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csprojAssemblyReference.cache
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.ProjectInstaller.resources
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.GenerateResource.cache
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.CoreCompileInputs.cache
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.csproj.CopyComplete
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.exe
+E:\Библиотеки\Рабочий стол\BCC\FC_ImageImport_Service\FC_ImageImport_Service\FC_ImageImport_Service\obj\Release\FC_ImageImport_Service.pdb

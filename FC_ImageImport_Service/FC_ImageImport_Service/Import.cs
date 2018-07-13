@@ -305,16 +305,17 @@ namespace OracleLib
             byte[] buffer = new byte[blob.Length];
             reader.GetBytes(0, 0, buffer, 0, buffer.Length);
 
-            //string swiftText = Encoding.Default.GetString(buffer);
-
-            string swiftText = Encoding.UTF8.GetString(buffer);
-
-            Trace.TraceInformation(swiftText);
+            string swiftText = Encoding.Default.GetString(buffer);
 
             if (swiftText.Contains("Ѓ"))
             {
                 swiftText = Encoding.UTF8.GetString(buffer);
             }
+
+            if (!swiftText.Contains("/NUM/"))
+            {
+                swiftText = Encoding.Unicode.GetString(buffer);
+            } 
 
             string[] real = new string[] { "ј", "ѕ", "є", "ї", "ў", "ќ", "ґ", "ћ", "Ј", "Ѕ", "Є", "Ї", "Ў", "Ќ", "Ґ", "Ћ" };
             string[] replaced = new string[] { "ә", "ң", "ғ", "ү", "ұ", "қ", "ө", "һ", "Ә", "Ң", "Ғ", "Ү", "Ұ", "Қ", "Ө", "Һ" };
@@ -324,8 +325,8 @@ namespace OracleLib
             }
 
             Trace.TraceInformation("Переписали файл в стринг");
-            Trace.TraceInformation(swiftText);
-
+            
+            //Trace.TraceInformation(swiftText);
 
             string[] list;
 
@@ -453,8 +454,6 @@ namespace OracleLib
                 iik = "";
                 iin = "";
                 period = "";
-                totalSum = "";
-                valDate = "";
                 fmAll = "";
 
                 Trace.TraceInformation("Записали Док файл");
@@ -605,6 +604,7 @@ namespace OracleLib
             Trace.TraceInformation("Замутили освновной документ");
 
         }
+
 
         /// <summary>
         /// обновление статуса документа в базе Oracle банка

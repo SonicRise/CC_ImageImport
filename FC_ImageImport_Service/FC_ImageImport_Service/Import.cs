@@ -441,7 +441,7 @@ namespace OracleLib
                     }
                 }
 
-                fmAll = fm + " " + nm + " " + ft;
+                fmAll = fm + "+" + nm + "+" + ft;
                 Trace.TraceInformation("Перед записывание в Док файл");
                 Doc.SwiftLists.Add(new SwiftList(numberInList, sum, fmAll, dt, iik, iin, period));
 

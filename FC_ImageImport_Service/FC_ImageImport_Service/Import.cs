@@ -595,7 +595,7 @@ namespace OracleLib
             }
                     
             kod = irsPayer + secoPayer;
-            kbe = irsRecip + irsRecip;
+            kbe = irsRecip + secoRecip;
 
             Trace.TraceInformation(kod + " " + kbe);
 

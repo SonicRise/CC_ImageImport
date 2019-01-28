@@ -305,9 +305,16 @@ namespace OracleLib
             byte[] buffer = new byte[blob.Length];
             reader.GetBytes(0, 0, buffer, 0, buffer.Length);
 
+            /*string encoding = string.Empty;
+            Stream fs = new FileStream(@"D:\Service.txt", FileMode.Open);
+            using (StreamReader sr = new StreamReader(fs, true))
+                encoding = sr.CurrentEncoding.ToString();
+            Trace.TraceInformation("Current encoding: " + encoding);*/
+
             string swiftText = Encoding.Default.GetString(buffer);
 
-            if (swiftText.Contains("Ѓ"))
+            //string swiftText = Encoding.UTF8.GetString(buffer);
+            if (swiftText.Contains("Ѓ") || swiftText.Contains("ђ"))
             {
                 swiftText = Encoding.UTF8.GetString(buffer);
             }
@@ -326,7 +333,16 @@ namespace OracleLib
 
             Trace.TraceInformation("Переписали файл в стринг");
             
-            //Trace.TraceInformation(swiftText);
+            Trace.TraceInformation(swiftText);
+
+            /*using (FileStream fstream = new FileStream(@"D:\Service.txt", FileMode.OpenOrCreate))
+            {
+                // преобразуем строку в байты
+                byte[] array = System.Text.Encoding.Default.GetBytes(swiftText);
+                // запись массива байтов в файл
+                fstream.Write(array, 0, array.Length);
+                //Console.WriteLine("Текст записан в файл");
+            }*/
 
             string[] list;
 

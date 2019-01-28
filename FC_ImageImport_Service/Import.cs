@@ -305,17 +305,16 @@ namespace OracleLib
             byte[] buffer = new byte[blob.Length];
             reader.GetBytes(0, 0, buffer, 0, buffer.Length);
 
-            string encoding = string.Empty;
+            /*string encoding = string.Empty;
             Stream fs = new FileStream(@"D:\Service.txt", FileMode.Open);
             using (StreamReader sr = new StreamReader(fs, true))
                 encoding = sr.CurrentEncoding.ToString();
+            Trace.TraceInformation("Current encoding: " + encoding);*/
 
-            Trace.TraceInformation("Current encoding: " + encoding);
+            string swiftText = Encoding.Default.GetString(buffer);
 
-            //string swiftText = Encoding.Default.GetString(buffer);
-
-            string swiftText = Encoding.UTF8.GetString(buffer);
-            /*if (swiftText.Contains("Ѓ"))
+            //string swiftText = Encoding.UTF8.GetString(buffer);
+            if (swiftText.Contains("Ѓ") || swiftText.Contains("ђ"))
             {
                 swiftText = Encoding.UTF8.GetString(buffer);
             }
@@ -323,7 +322,7 @@ namespace OracleLib
             if (!swiftText.Contains("/NUM/"))
             {
                 swiftText = Encoding.Unicode.GetString(buffer);
-            } */
+            } 
 
             string[] real = new string[] { "ј", "ѕ", "є", "ї", "ў", "ќ", "ґ", "ћ", "Ј", "Ѕ", "Є", "Ї", "Ў", "Ќ", "Ґ", "Ћ" };
             string[] replaced = new string[] { "ә", "ң", "ғ", "ү", "ұ", "қ", "ө", "һ", "Ә", "Ң", "Ғ", "Ү", "Ұ", "Қ", "Ө", "Һ" };

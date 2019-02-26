@@ -20,6 +20,10 @@ namespace OracleLib
         private int exceptioncount;
 
         public Settings ServiceSettings;
+
+        public OracleConnector() {
+            }
+
         public OracleConnector(CancellationTokenSource Source)
         {
             CTS = Source;
@@ -27,6 +31,7 @@ namespace OracleLib
             ServiceSettings.TestOracleConnection();
             ServiceSettings.TestSqlConnection();
         }
+
         public void Import(OracleCommand Com, ImportType Type)
         {
 
@@ -333,7 +338,7 @@ namespace OracleLib
 
             Trace.TraceInformation("Переписали файл в стринг");
             
-            Trace.TraceInformation(swiftText);
+            //Trace.TraceInformation(swiftText);
 
             /*using (FileStream fstream = new FileStream(@"D:\Service.txt", FileMode.OpenOrCreate))
             {
@@ -384,17 +389,17 @@ namespace OracleLib
             //делим информацию по каждому человеку в списке. 
             for (int i = 1; i != main_plus_swift.Length; i++)
             {
-                Trace.TraceInformation("Я зашел в цикл по перебору списка");
+                //Trace.TraceInformation("Я зашел в цикл по перебору списка");
                 list = main_plus_swift[i].Split(new[] { Environment.NewLine }, StringSplitOptions.None);
 
-                Trace.TraceInformation("потом разделил Iтый список по строкам");
-                Trace.TraceInformation("list.length: " + list.Length);
+                //Trace.TraceInformation("потом разделил Iтый список по строкам");
+                //Trace.TraceInformation("list.length: " + list.Length);
 
                 for (int j = 0; j != list.Length - 1; j++)
                 {
                     Trace.TraceInformation("Зашел в цикл по перебору строк в Iтом списке");
 
-                    Trace.TraceInformation("list " + j + ": " + list[j] + ", "); //list[j].Substring(0, 4): :32B:KZT600,00
+                    //Trace.TraceInformation("list " + j + ": " + list[j] + ", "); //list[j].Substring(0, 4): :32B:KZT600,00
 
                     if (list[j].Substring(0,1).Equals("-"))
                     {
@@ -507,9 +512,13 @@ namespace OracleLib
             Trace.TraceInformation("Начали работу с main doc");
             for (int i = 4; i != mainDoc.Length-1; i++)
             {
-                Trace.TraceInformation("mainDoc " + i + ": " + mainDoc[i]);
+                mainDoc[i] = mainDoc[i].Trim();
 
-                if(mainDoc[i].Length >= 4){
+                //Trace.TraceInformation("mainDoc " + i + ": " + mainDoc[i]);
+
+                if(mainDoc[i].Length >= 4)
+                {
+                    //Trace.TraceInformation("mainDoc length: " + mainDoc[i].Length.ToString());
 
                     if (mainDoc[i].Substring(0, 4).Equals("/NUM"))
                     {
@@ -602,7 +611,8 @@ namespace OracleLib
                     {
                         assign = assign + mainDoc[i];
                     }
-                }else{
+                }else
+                {
                     assign = assign + mainDoc[i];
                 }
 
